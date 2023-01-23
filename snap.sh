@@ -5,6 +5,8 @@
 ## This script does not delete any Snapshots on the virtual systems or on the bucket. Cleanup needs to be manually
 ## The script creates cost for snapshots and S3 bucket usage each run
 
+## exo CLI needs to be configure on the server running this script. Please look at https://community.exoscale.com/documentation/tools/exoscale-command-line-interface/ how to configure
+
 # Define the path where the snapshot should be stored on the local disk of the server running the script to buffer before upload. Disk needs to be sufficient in size to take the largest snapshot once
 path="/mnt/data/snapshotfolder"
 # name the bucket where the snapshots should be uploaded to
